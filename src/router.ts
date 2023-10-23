@@ -9,7 +9,6 @@ const config = HonoPressConfig;
 app.get('/', (c) => c.html(html`
     <!DOCTYPE html>
     <head>
-        ${config.RawHead}
         <title>${config.title}</title>
         <meta name="description" content="${config.description}">
     </head>
