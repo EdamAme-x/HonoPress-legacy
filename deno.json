@@ -1,0 +1,9 @@
+{
+    "tasks": {
+        "start": "deno run -A src/router.ts"
+    },
+    "imports": {
+        "hono": "https://esm.sh/hono",
+        "@hono/nodeserver": "https://esm.sh/@hono/node-server@1.2.0"
+    }
+}
